@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="../styles/style.css">
+    <title>FaQ</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <nav class="navbar navbar-expand-lg color-nav">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html"><img src="../images/Logo.png" alt="logoFiLa3D"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active navbar-textcolor" aria-current="page"
+                                href="../pages/galeria.html">Galería</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link navbar-textcolor" href="../pages/faq.html">FaQ</a>
+                        </li>
+                        <li class="nav-item dropdown ">
+                            <a class="nav-link dropdown-toggle navbar-textcolor" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Más
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item navbar-textcolor" href="#">Contacto</a></li>
+                                <li><a class="dropdown-item navbar-textcolor" href="#">Sucursales</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item navbar-textcolor" href="#">Sobre nosotros</a></li>
+                            </ul>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Ingrese búsqueda"
+                            aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <main>
+        <h1 class="fst-italic text-center">Preguntas Frecuentes</h1>
+        <br>
+        <!-- ACCORDION -->
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button fst-italic" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        ¿Quienes somos?
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>Somos una empresa dedicada a el diseño e impresión 3D.</strong>Nuestro afán es brindarle
+                        el mejor servicio y las mejores piezas para sus proyectos, tanto personales como a nivel
+                        industrial, de manera que pueda llegar a su objetivo eficientemente
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed fst-italic" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        ¿Que máquinas usamos?
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>Impresoras 3D de resina y deposición de material</strong> Nuestras máquinas cuentan con
+                        la más alta tecnología en impresión 3D de manera que podamos brindarle un producto de la más
+                        alta calidad y durabilidad dependiendo de su objetivo
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed fst-italic" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        ¿Que materiales utilizamos?
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>Nuestros materiales principales son PLA y ABS.</strong> aunque también contamos con
+                        otros materiales menos requeridos, como por ejemplo resinas ultravioleta, PET, PETG, TPU y otros
+                        diversos materiales que podrán aplicar a sus proyectos dependiendo del uso que le vallan a
+                        proporcionar, todo contando con nuestro asesoramiento de principio a fin!
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p class="fst-italic text-center disclaimer">2022 Fila3D // Todos los derechos reservados</p>
+
+        <div class="container text-center">
+            <div class="row">
+                <div class="col">
+                    <a href="https://facebook.com.ar"><img class="redes" src="../images/facebook.png"
+                            alt="facebook"></a>
+                </div>
+                <div class="col">
+                    <a href="https://twitter.com.ar"><img class="redes" src="../images/gorjeo.png" alt="twitter"></a>
+                </div>
+                <div class="col">
+                    <a href="https://instagram.com.ar"><img class="redes" src="../images/instagram.png"
+                            alt="instagram"></a>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
